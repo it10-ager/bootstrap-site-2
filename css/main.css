@@ -1,0 +1,55 @@
+*{
+	user-select: none!important;
+}
+
+.background-1{
+	height: 100vh;
+	background: linear-gradient( rgb(26 26 26 / 80%), rgb(0 0 0 / 50%)), url(../img/153937-estetika-oblako-atmosfera-dnevnoe_vremya-neboskreb-1920x1080.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.background-2{
+	height: 100vh;
+	background: linear-gradient( rgb(26 26 26 / 80%), rgb(0 0 0 / 50%)), url(../img/pejzazh_art_doroga_127350_3840x2400.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.form-control::placeholder{
+	color: white!important;
+}
+
+.form-control:focus{
+	border-color: orange!important;
+	box-shadow: none!important;
+}
+
+.col-sm{
+	flex: none!important;
+}
+
+.hover-button:hover{
+	width: 136px;
+	background: none!important;
+	transition: .3s;
+	color: #ffc107!important;
+}
+
+.hover-button-2:hover{
+	width: 180px;
+	background: none!important;
+	transition: .3s;
+	color: #000!important;
+}
+
+.hover-button-3:hover{
+	width: 150px;
+	background: none!important;
+	transition: .3s;
+	color: #ffc107!important;
+}
+
+.user-cursor{
+	cursor: context-menu;
+}
